@@ -9,7 +9,7 @@ lex Wilson and Matthew Montgomery
 
 The shell before you is a program that takes user input and translates its use by the operating system
 
-|##file**       |Desription                                                                                           |
+|**file**       |Desription                                                                                           |
 |---------------|-----------------------------------------------------------------------------------------------------|
 |main.c	        |**shell* : Tells the user / **Main**: Starting point                                                 |
 |input.c        |**_get_line**: Takes user input / **_strlen** : Returns the length of the string                     |
