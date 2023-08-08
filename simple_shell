@@ -1,0 +1,26 @@
+.\" Manpage for simple_shell.
+.TH man  "August 4 2023" "1.0" "simple_shell man page"
+.SH NAME
+.B hsh / simple_shell
+.SH SYNOPSIS
+.B hsh
+Takes input from user, separates it into its arguments, processes the input which it then executes any correct command that it finds
+.SH DESCRIPTION
+A standard command interpreter for the system
+.SH OPTIONS
+once all files are complied, run:
+.br
+$ ./hsh
+In the command line interpretor basic linux commands can be executed. These commands can be executed with built in options.
+.B env -
+Print the current environment.
+To exit the program, run:
+.br
+$ exit
+
+.SH FILES
+.TP
+.I /holbertonschool-simple_shell/hsh
+
+.SH AUTHORS 
+Lex Wilson Matthew Montgomery
