@@ -1,13 +1,13 @@
 #include "shell.h"
 /**
- * _cd - the cd (change directory) command
- *
- * @argv: str array, list holding the command and args
- * ^should have singular arg which is the absolute current path
- * @env: environment var, unused
- *
- * Return: int, 0 on success, -1 on failure
- */
+ * * _cd - the cd (change directory) command
+ * *
+ * * @argv: str array, list holding the command and args
+ * * ^should have singular arg which is the absolute current path
+ * * @env: environment var, unused
+ * *
+ * * Return: int, 0 on success, -1 on failure
+ * */
 int _cd(char *argv[], char **env)
 {
 	char cwd[128];
@@ -24,13 +24,13 @@ int _cd(char *argv[], char **env)
 	return (0);
 }
 /**
- * _env - prints environment variables
- *
- * @argv: str array, unused
- * @env: envirnoment var
- *
- * Return: int, 0 on success, -1 on failure
- */
+ * * _env - prints environment variables
+ * *
+ * * @argv: str array, unused
+ * * @env: envirnoment var
+ * *
+ * * Return: int, 0 on success, -1 on failure
+ * */
 int _env(char *argv[], char **env)
 {
 	int i = 0;
@@ -56,4 +56,4 @@ int _stop(char *argv[], char **env)
 	free(argv[0]);
 	exit(0);
 	return (0);
-} 
+}
