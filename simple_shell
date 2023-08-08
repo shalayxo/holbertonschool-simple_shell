@@ -22,5 +22,27 @@ $ exit
 .TP
 .I /holbertonschool-simple_shell/hsh
 
-.SH AUTHORS 
+.SH EXAMPLES
+Below an example of interactive mode:
+.RS +4
+$ ./hsh
+.RE
+.RS +4
+$ /bin/ls
+.RE
+.RS +4
+hsh main.c shell.c
+.RE
+.RS +4
+$
+.RE
+.RS +4
+$ exit
+.RE
+.RS +4
+$
+.SH BUGS
+No known bugs.
+
+.SH AUTHORS
 Lex Wilson Matthew Montgomery
